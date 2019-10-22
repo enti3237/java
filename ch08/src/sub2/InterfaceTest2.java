@@ -18,7 +18,5 @@ public class InterfaceTest2 {
 		stv.booting();
 		stv.internet();
 		stv.powerOff();
-		
 	}
-
 }
