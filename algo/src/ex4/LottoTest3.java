@@ -24,6 +24,5 @@ public class LottoTest3 {
 		System.out.println();
 		System.out.println("오늘의 로또번호 : " + Arrays.toString(lotto));
 		//Array 랑  Arrays는 다릅니다 toString이 안 붙으면 내가 뭘 썼나 의심해봅시다...
-
 	}
 }
