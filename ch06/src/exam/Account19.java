@@ -1,6 +1,6 @@
 package exam;
 
-public class Account19_cafe {
+public class Account19 {
 	//음수값 안되고 최대 백만원까지만 저장되는 필드+외부변경 불가
 	private int balance;
 	

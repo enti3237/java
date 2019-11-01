@@ -2,6 +2,7 @@ package exam;
 import java.util.Scanner;
 
 public class AccountExam20 {
+	
 		private static Account20[] accountArray = new Account20[100];
 		private static Scanner scanner = new Scanner(System.in);
 		
@@ -36,7 +37,7 @@ public class AccountExam20 {
 			System.out.println("------");
 			System.out.println("계좌생성");
 			System.out.println("------");
-			System.out.println("계좌번호 : " +createAccount(););
+			System.out.println("계좌번호 : ");
 			System.out.println("계좌주 : " );
 			System.out.println("초기입금액  : " );
 			System.out.println("결과 : 계좌가 생성되었습니다.");
@@ -44,23 +45,26 @@ public class AccountExam20 {
 		
 		//계좌목록보기
 		private static void accountList() {
-			
+			System.out.println("계좌목록");
 			
 			//작성위치
 		}
 		
 		//예금하기
 		private static void deposit() {
+			System.out.println("예금");
 			//작성위치
 		}
 		
 		//출금하기
 		private static void withdraw() {
+			System.out.println("출금");
 			//작성위치
 		}
 		
 		//Account 배열에서 ano와 동일한 Account 객체 찾기
-		private static Account19_cafe findAccount(String ano) {
+		private static Account20 findAccount(String ano) {
+			if(String ano == Account20)
 			//작성위치
 			
 			return null;
