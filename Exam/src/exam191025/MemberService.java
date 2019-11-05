@@ -9,7 +9,8 @@ public class MemberService {
 	public boolean login(String id, String password) {
 		
 		//로그인 메서드는 id가 "hong" password가 "12345"일 때 trur return 그 외엔 false 
-		if(id=="hong" && password=="12345") {
+		if(id.equals("hong") && password.equals("12345")) {
+//			if(id=="hong" && password=="12345") { 나머지는 다 붙여넣기 실패로 인한 감점이었는데 이건 확실히 틀렸다아ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ
 			return true;
 		} else {
 			return false;
